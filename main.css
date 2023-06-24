@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,300;0,600;0,700;1,300;1,600;1,700&family=Kenia&display=swap');
+*{margin: 0; padding: 0;}
+
+header ,#img-topo{
+    width: 100%;
+     background:#d19e00;
+}
+
+nav{
+    
+    padding: 20px;
+    text-align: center;
+    background: #d19e00;
+   
+}
+
+a{
+    color:#ffffe7;
+    text-decoration: none;
+    font:1.3em 'Fira Sans Condensed', sans-serif;
+    margin-right: 30px;
+}
+main, #pag-leve, #pag-especializacoes, #pag-banho{
+    padding: 70px;
+}
+main{
+    background: #fff;
+}
+
+section{
+    padding: 20px;
+}
+
+h1{
+    color:rgb(231, 214, 116);
+    font-family: 'Kenia', cursive;
+    font-size: 3em;
+    text-align: center;
+    line-height: 1.5em;
+}
+p{
+    color: #030303;
+    font-size: 1.5em; 
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 1.2em;
+}
+
+#pag-leve{
+    background: #d19e00;
+}
+
+#pag-leve h2,#pag-leve p{
+    color:#fff441;
+    margin-bottom: 20px;
+}
+h2{
+    color:rgb(236, 222, 141);
+    font-family: 'Kenia', cursive;
+    font-size: 2.5em;
+    text-align: justify;
+    line-height: 1.5em;
+}
+ul{
+    margin-left: 70px;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+li{
+    color: #030303;
+    font: 1.3em 'Fira Sans Condensed', sans-serif;
+    line-height: 2em;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.card{ 
+   background-color:#ffd700;
+   border-radius: 10px;
+   width: 24%;
+   box-shadow: 10px 10px 10px #FEFFC1;
+}
+.card:hover{
+    box-shadow: 10px 10px 10px #fdf277;
+}
+.texto-card{
+    color:#a67102;
+    font-family: 'Kenia', cursive;
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.5em;
+   
+}
+#pag-especializacoes{
+    background: #d19e00;
+}
+.img-card{
+    width : 100%;
+    border-radius: 10px 10px 0 0 ;
+}
+
+
+
+
+
+
+#container-banho{
+    display: flex;
+}
+.img-icones{
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+}
+
+video {
+    width: 450px;
+}
+
+
+#pag-banho{
+    background-color: #fffd86;
+    
+}
+#pag-banho p{
+    
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.coluna-banho{
+padding: 20px;
+}
+.container-imagens{
+    
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    
+}
+.container-imagens p{
+    color: #000;
+    
+}
+
+
+
+
+footer p{
+    color: #fff ;
+    text-align: center;
+}
+footer a{
+    color: #fff441;
+}
+footer a:hoover{
+    color: #55554b;
+}
+
+footer{
+    padding: 20px;
+    background-color: #000;
+    
+}
+
+
+/* página de agendamentos*/
+
+#agendamentos{
+    width: 100%;
+     background:#d19e00;
+}
+
+#pag-agendamentos{
+    background: #ffffff;
+
+}
+
+#pag-agendamentos p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#pag-agendamentos h1{
+    color: #ffd700;
+}
+form{
+    background: #d19e00;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #f3d52a;
+}
+input, select, textarea{ 
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border: 1px solid #c4c4c4;
+
+    color: #1b1b1b;
+}
+
+label, fieldset, input, select, textarea{
+    font:1rem 'Fira Sans Condensed', sans-serif;
+    border-radius: 5px;
+
+}
+fieldset{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+#data-hora-num{
+    display: flex;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+    margin-left:50px;
+}
+textarea{
+    height: 80px;
+}
+#botoes-form{
+    display: flex;
+}
+input[type="submit"], input[type="reset"]{
+    margin: 20px;
+    background-color: rgb(71, 173, 71);
+    border: 0;
+    color: white;
+    border-radius: 5px;
+}
+input[type="reset"]{
+    background-color: rgb(190, 51, 51);
+}

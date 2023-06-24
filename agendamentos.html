@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>agendamentos</title>
+</head>
+<body>
+        <header >
+            <img  id="agendamentos" src="img/CorsaShop.png" alt="banner CorsaShop Logo">
+        </header>
+
+        <nav>
+            <a class="a-menu" href="index.html">HOME</a>
+            <a class="a-menu" href="index.html#pag-mais">MAIS</a>
+            <a class="a-menu" href="index.html#pag-leve">LEVE SEU PET</a>
+            <a class="a-menu" href="index.html#pag-especializações">ESPECIALIZAÇÕES</a>
+            <a class="a-menu" href="index.html#pag-banho">BANHO GERAL</a>
+            <a class="a-menu" href="#">AGENDAMENTOS</a>
+        </nav>
+    
+        <section id="pag-agendamentos">
+            <h1>Agendamentos</h1>
+        
+        
+            <p>Agende o banho ou tosa do seu Pet</p>
+            <form action="">
+                <label for="nome">Nome:</label> <br>
+                <input id="nome" type="text" name="nome_completo" placeholder="Digite seu nome Completo" required autofocus />
+
+                <label for="email">E-mail:</label><br>
+                <input id="email" name="email" type="email"  placeholder="nomeusuario@email.com" /> 
+                <label for="senha">Senha:</label><br>
+                <input id="senha" name="senha" type="password" placeholder="Somente números" /> 
+
+                <label for="celular">Celular:</label>
+                <input id="celular" name="Celular" type="tel" placeholder="(99) 99999-9999"  pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$"/> 
+
+                <div id="data-hora-num">
+                    <div><label for="data">Data:</label>
+                        <input id="data" name="Data" type="date" />
+                    </div>
+
+                    <div><label for="hora">Hora:</label>
+                        <input id="hora" name="Hora" type="time" />
+                    </div>
+
+                    <div><label for="nsericos">Nº serviços:</label>
+                        <input id="nservicos" name="NServicos" type="number" min="1" max="10" step="1"/>
+                    </div>
+                    
+                </div>
+
+                <label for="servicos">Serviços:</label> 
+                <select id="servicos" name="Servicos">
+                    <option value="">Selecione</option>
+                    <option value="banho">Banho geral</option>
+                    <option value="tosageral">Tosa geral</option>
+                    <option value="tosahigienica">Tosa higiênica</option>
+                </select> 
+
+            <fieldset>
+                <legend>Gênero:</legend>    
+                <input id="masc" type="radio" value="masc" name="genero"> <label for="masc">Masculino</label> <br>
+                <input id="fem" type="radio" value="fem" name="genero"><label for="fem">Feminino</label> <br>
+                <input id="prefiro" type="radio" value="prefiro" name="genero"><label for="prefiro">Prefiro não dizer</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Porte do Pet:</legend>
+                <input id="pequeno" type="checkbox" name="porte" value="pequeno"> <label for="pequeno">Pequeno</label><br>
+                <input id="Medio" type="checkbox" name="porte" value="medio"> <label for="medio">Médio</label> <br>     
+                <input id="Grande" type="checkbox" name="porte" value="grande"> <label for="grande">Grande</label>
+            </fieldset>
+
+            <label for="msg" >Mensagem:</label> 
+            <textarea name="mensagem" id="msg" rows="4"></textarea>
+
+                <div id="botoes-form">
+                    <input type="submit"name="bnt-agendar" value="AGENDAR">
+                    <input type="reset" name="bnt-cancelar" value="CANCELAR">
+                </div>
+            </form>
+        </section>    
+
+        <footer>
+            <p>Desenvolvido por <a href="https://instagram.com/lil.nego.tro" target="_blank">Guilherme Cezar</a> - 2023</p>
+        </footer>
+</body>
+</html>
